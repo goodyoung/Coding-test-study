@@ -4,30 +4,7 @@
 
 문제 링크 : https://www.acmicpc.net/problem/2141
 
-```
-import sys
-input = sys.stdin.readline
-
-n = int(input())
-
-array = []
-people = 0
-
-for _ in range(n):
-    q, w = map(int,input().split())
-    array.append([q,w])
-    people += w
-
-array.sort(key = lambda x : x[0])
-
-count = 0
-
-for i in range(n):
-    count += array[i][1]
-    if count >= people/2 :
-        print(array[i][0])
-        break
-```
+문제 풀이 : https://github.com/ooosj/Coding-test-study/blob/main/week-1/osj/%5Bboj%5D%202141.py
 
 #### 핵심 아이디어
 모든 마을 사람의 총합의 절반을 넘어가는 순간의 마을이 정답
@@ -55,41 +32,7 @@ https://math.stackexchange.com/questions/4410205/minimum-value-of-sum-of-absolut
 
 문제 링크 : https://www.acmicpc.net/problem/1080
 
-```
-import sys
-input = sys.stdin.readline
-
-n, m = map(int,input().split())
-
-array1 = []
-array2 = []
-
-for _ in range(n):  
-    array1.append(list(map(int, input().rstrip())))
-for _ in range(n):
-    array2.append(list(map(int, input().rstrip())))
-
-count = 0
-
-def change(a, b):
-    for i in range(a, a + 3):
-        for j in range(b, b+3):
-            if array1[i][j] == 1 :
-                array1[i][j] = 0
-            else :
-                array1[i][j] = 1
-
-for i in range(n-2):
-    for j in range(m-2):
-        if array1[i][j] != array2[i][j]:
-            change(i, j)
-            count += 1
-
-if array1 != array2 :
-    count = -1
-
-print(count)
-```
+문제 풀이 : https://github.com/ooosj/Coding-test-study/blob/main/week-1/osj/%5Bboj%5D%201080.py
 
 #### 핵심 아이디어
 그냥 하나하나 다 비교하기

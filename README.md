@@ -2,4 +2,6 @@
 코테 알고리즘 스터디
 ---
 - WEEK1
-  - Greedy
+  - Greedy (6)
+- WEEK2
+  - Implement (4)

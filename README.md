@@ -5,3 +5,5 @@
   - Greedy (6)
 - WEEK2
   - Implement (4)
+- WEEK3
+  - BFS/DFS (4)

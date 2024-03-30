@@ -19,7 +19,7 @@ for i in range(n):
             queue.append([i,j])
 
 def bfs(array):
-    count = 0
+    
     while queue:
         x, y = queue.popleft()
         for i in range(4):
@@ -30,8 +30,6 @@ def bfs(array):
                 array[nx][ny] = array[x][y] + 1
                 queue.append([nx,ny])
 
-
-    return count
 
 bfs(array)
 

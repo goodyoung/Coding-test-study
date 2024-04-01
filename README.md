@@ -7,3 +7,6 @@
   - Implement (4)
 - WEEK3
   - BFS/DFS (4)
+- WEEK4
+  - BFS/DFS (2)
+  - Implement(4)

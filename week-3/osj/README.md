@@ -6,7 +6,7 @@
 
 [풀이](https://github.com/ooosj/Coding-test-study/blob/main/week-3/osj/%5Bboj%5D%207576.py)
 
-## 핵심 아이디어
+### 핵심 아이디어
 
 bfs를 사용하여 구현한다.
 
@@ -27,3 +27,23 @@ bfs를 구현하기 위해 queue를 덱으로 만들어준다.
 <br>
 
 날짜를 표기하기 위해 카운트만 생각하는 것이 아닌 다양한 방법을 생각할 수 있도록 노력하면 좋을 것 같다
+
+---
+
+## 1260 - DFS와 BFS
+
+실버 2
+
+[문제 링크](https://www.acmicpc.net/problem/1260)
+
+[풀이](https://github.com/ooosj/Coding-test-study/blob/main/week-3/osj/%5Bboj%5D%201260.py)
+
+### 핵심 아이디어
+
+이차원 배열로 간선을 표시한다.
+
+<br>
+
+이차원 배열에 TURE로 노드가 연결되어있는 것을 표시한다.
+
+---

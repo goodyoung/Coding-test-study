@@ -47,3 +47,24 @@ bfs를 구현하기 위해 queue를 덱으로 만들어준다.
 이차원 배열에 TURE로 노드가 연결되어있는 것을 표시한다.
 
 ---
+
+## 1743 - 음식물 피하기
+
+실버 1
+
+[문제 링크](https://www.acmicpc.net/problem/1743)
+
+[풀이](https://github.com/ooosj/Coding-test-study/blob/main/week-3/osj/%5Bboj%5D%201743.py)
+
+### 핵심 아이디어
+
+bfs를 이용하여 구현한다.
+
+<br>
+
+쓰레기의 위치를 1로 입력 받고 방문했을 시 2로 바꾼다
+
+<br>
+
+2로 바꾸는 과정에 카운트를 하여 최대값을 출력한다.
+

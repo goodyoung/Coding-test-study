@@ -25,3 +25,13 @@
 bfs라고 리스트만 사용하는 것이 아니라 캐싱이 필요하다면 딕셔너리를 쓸 수 있도록 노력하면 좋을 것 같다.
 
 ---
+
+## 16298 - 뱀과 사다리 게임
+
+골드 5
+
+[문제 링크](https://www.acmicpc.net/problem/2206)
+
+[풀이](https://github.com/ooosj/Coding-test-study/blob/main/week-4/osj/%5Bboj%5D%2016928.py)
+
+### 핵심 아이디어

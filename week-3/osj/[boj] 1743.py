@@ -34,7 +34,7 @@ def bfs(x, y):
                 count += 1
 
     return count
- 
+
 result = 0
 
 for i in range(1, n+1):
